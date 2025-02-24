@@ -1,0 +1,43 @@
+/* Ensure the main container is well-positioned */
+#testimonials {
+  position: relative;
+  padding-top: 50px;
+}
+
+/* Pagination styling */
+.swiper-pagination-container {
+
+  margin-top: 20px; /* Adjust as per your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  
+  background: #000 !important; /* Default color */
+  border-radius: 50%;
+  margin: 0 5px;
+  opacity: 0.7;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Active state of pagination bullets */
+.swiper-pagination-bullet-active {
+  background: #3e7071  !important; /* Active bullet color */
+  opacity: 1;
+  transform: scale(1.2); /* Enlarge active bullet */
+}
+
+/* Hover effect */
+.swiper-pagination-bullet:hover {
+  background: #555;
+}

@@ -1,0 +1,24 @@
+
+/* Ensure that the pagination is properly styled and visible */
+.service-slider {
+  position: relative;
+}
+
+/* Ensure the pagination container is visible */
+.swiper-pagination {
+  display: flex !important; /* Force display to be flex if it's hidden */
+  justify-content: center;
+
+  margin-top: 10px;
+}
+
+/* Style the individual pagination bullets */
+.swiper-pagination-bullet {
+  background-color: white !important; /* Adjust the bullet color */
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background-color:#000  !important; /* Active bullet color */
+  opacity: 1;
+}
