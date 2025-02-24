@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Company Info */}
         <div className="sm:col-span-2">
           <a href="/" aria-label="Go home" title="Company" className="inline-flex items-center">
-            <img src="../../assets/logo/logo.png" className="h-12" alt="logo" />
+            <img src="/src/assets/logo/logo.png" className="h-12" alt="logo" />
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Alpha Galaxy Pixels</span>
           </a>
           <div className="mt-6 lg:max-w-sm">

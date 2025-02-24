@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-transparent">
       {/* Logo */}
-      <img src="../../assets/logo/logo.png" className="h-8 w-8" alt="logo" />
+      <img src="/src/assets/logo/logo.png" className="h-8 w-8" alt="logo" />
 
       {/* Navigation Links */}
       <div className="flex space-x-6">
