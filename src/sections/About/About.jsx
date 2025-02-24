@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/logo/logo.png'
+import logo from '/logo.png'
 const About = () => {
   return (
     <section id="about" className="justify-center flex flex-col items-center min-h-screen  ">
